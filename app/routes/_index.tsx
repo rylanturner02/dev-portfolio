@@ -11,7 +11,8 @@ export default function Index() {
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8", padding: "20px" }}>
       <header style={{ marginBottom: "40px" }}>
         <h1 className="text-3xl font-bold underline">Rylan Turner</h1>
-        <p>{"Welcome to my developer portfolio! This website is currently under development, so feel free to track changes on my GitHub repo, listed below."}</p>
+        <p>{"Welcome to my developer portfolio!"}</p>
+        <p><i>This website is currently under development, so feel free to track changes on my GitHub repo, listed below.</i></p>
       </header>
       
       <section style={{ marginBottom: "40px" }}>
@@ -23,12 +24,12 @@ export default function Index() {
         <h2 className="text-2xl font-bold italic">Projects</h2>
         <ul>
           <li>
-            <strong>Project One</strong> - <a href="https://github.com/rylanturner02/classic-search" target="_blank" rel="noreferrer">GitHub Repo</a>
-            <p>A brief description of what this project does and the technologies used.</p>
+            <strong>classic-search</strong> - <a href="https://github.com/rylanturner02/classic-search" target="_blank" rel="noreferrer">GitHub Repo</a>
+            <p>Chrome extension that automatically redirects Google search to Web-only results.</p>
           </li>
           <li>
-            <strong>Project Two</strong> - <a href="https://github.com/rylanturner02/dev-portfolio" target="_blank" rel="noreferrer">GitHub Repo</a>
-            <p>A brief description of what this project does and the technologies used.</p>
+            <strong>dev-portfolio</strong> - <a href="https://github.com/rylanturner02/dev-portfolio" target="_blank" rel="noreferrer">GitHub Repo</a>
+            <p>The Remix project for this very page!</p>
           </li>
         </ul>
       </section>
