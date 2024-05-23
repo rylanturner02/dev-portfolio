@@ -10,7 +10,7 @@ export default function Index() {
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8", padding: "20px" }}>
       <header style={{ marginBottom: "40px" }}>
-        <h1>Rylan Turner</h1>
+        <h1 className="text-3xl font-bold underline">Rylan Turner</h1>
         <p>{"Welcome to my developer portfolio!"}</p>
       </header>
       
