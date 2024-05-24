@@ -6,14 +6,46 @@ export const meta: MetaFunction = () => {
   ];
 };
 
+interface CardProps {
+  repoName: string;
+  description: string;
+  tags: string[];
+}
+
+function Card({ repoName, description, tags } : CardProps) {
+  return (
+    <div className="card bg-base-300 w-80 shadow-xl mb-5">
+      <div className="card-body">
+        <h2 className="card-title">{repoName}</h2>
+        <p>{description}</p>
+        <div className="card-actions justify-end">
+          {tags.map(tag => <div className="badge badge-outline bg-primary">{tag}</div>)}
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function Index() {
   return (
-    <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8", padding: "20px" }}>
-      <header style={{ marginBottom: "40px" }}>
-        <h1 className="text-3xl font-bold underline">Rylan Turner</h1>
+    <div style={{ fontFamily: "Averia Serif Libre, serif", lineHeight: "1.8", padding: "20px" }}>
+      <header className="fixed top-0 left-0 right-0 z-50">
+        <div className="navbar bg-primary">
+          <div className="flex-1">
+            <a className="btn btn-ghost text-xl">Rylan Turner&apos;s Portfolio</a>
+          </div>
+          <div className="flex-none">
+            <button className="btn btn-square btn-ghost">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-5 h-5 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg>
+            </button>
+          </div>
+        </div>
+      </header>
+      
+      <div className="mt-16 mb-5">
         <p>{"Welcome to my developer portfolio!"}</p>
         <p><i>This website is currently under development, so feel free to track changes on my GitHub repo, listed below.</i></p>
-      </header>
+      </div>
       
       <section style={{ marginBottom: "40px" }}>
         <h2 className="text-2xl font-bold italic">About Me</h2>
@@ -21,17 +53,9 @@ export default function Index() {
       </section>
 
       <section style={{ marginBottom: "40px" }}>
-        <h2 className="text-2xl font-bold italic">Projects</h2>
-        <ul>
-          <li>
-            <strong>classic-search</strong> - <a href="https://github.com/rylanturner02/classic-search" target="_blank" rel="noreferrer"><button className="btn btn-primary">GitHub Repo</button></a>
-            <p>Chrome extension that automatically redirects Google search to Web-only results.</p>
-          </li>
-          <li>
-            <strong>dev-portfolio</strong> - <a href="https://github.com/rylanturner02/dev-portfolio" target="_blank" rel="noreferrer"><button className="btn btn-primary">GitHub Repo</button></a>
-            <p>The Remix project for this very page!</p>
-          </li>
-        </ul>
+        <h2 className="text-2xl font-bold italic mb-5">Projects</h2>
+        <Card repoName="classic-search" description="Chrome extension that filters Google search queries by Web-results only." tags={["Chrome", "JSON"]} />
+        <Card repoName="dev-portfolio" description="The Remix project for this very page!" tags={["React", "Remix", "TypeScript"]} />
       </section>
 
       <section style={{ marginBottom: "40px" }}>

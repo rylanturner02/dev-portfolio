@@ -10,6 +10,6 @@ export default {
     require('daisyui'),
   ],
   daisyui: {
-    themes: ["pastel"],
+    themes: ["bumblebee"],
   },
 } satisfies Config
