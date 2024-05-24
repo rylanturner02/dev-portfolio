@@ -24,11 +24,11 @@ export default function Index() {
         <h2 className="text-2xl font-bold italic">Projects</h2>
         <ul>
           <li>
-            <strong>classic-search</strong> - <a href="https://github.com/rylanturner02/classic-search" target="_blank" rel="noreferrer"><button className="btn">GitHub Repo</button></a>
+            <strong>classic-search</strong> - <a href="https://github.com/rylanturner02/classic-search" target="_blank" rel="noreferrer"><button className="btn btn-primary">GitHub Repo</button></a>
             <p>Chrome extension that automatically redirects Google search to Web-only results.</p>
           </li>
           <li>
-            <strong>dev-portfolio</strong> - <a href="https://github.com/rylanturner02/dev-portfolio" target="_blank" rel="noreferrer"><button className="btn">GitHub Repo</button></a>
+            <strong>dev-portfolio</strong> - <a href="https://github.com/rylanturner02/dev-portfolio" target="_blank" rel="noreferrer"><button className="btn btn-primary">GitHub Repo</button></a>
             <p>The Remix project for this very page!</p>
           </li>
         </ul>
