@@ -1,36 +1,9 @@
-# Welcome to Remix + Vite!
+# Welcome to my dev portfolio!
 
-📖 See the [Remix docs](https://remix.run/docs) and the [Remix Vite docs](https://remix.run/docs/en/main/guides/vite) for details on supported features.
+## Languages, frameworks, etc.
+- The core of the site is built using the Remix framework for React.
+- TypeScript is used over traditional JavaScript for type annotations, which makes the code easier to follow.
+- The site is styled with the Tailwind CSS framework, providing utility classes and straightforward, in-line styling. I'm using the DaisyUI component library on top of Tailwind.
+- This Remix configuration uses the Vite development environment, which is widely considered the standard development server for Reactive applications like this one.
 
-## Development
-
-Run the Vite dev server:
-
-```shellscript
-npm run dev
-```
-
-## Deployment
-
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
+To launch a local development environemnt for this project, type `npm run dev` from the root folder.
