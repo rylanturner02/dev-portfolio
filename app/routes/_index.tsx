@@ -56,8 +56,10 @@ export default function Index() {
 
       <section style={{ marginBottom: "40px" }}>
         <h2 className="text-2xl font-bold italic mb-5">Projects</h2>
-        <Card repoName="classic-search" description="Chrome extension that filters Google search queries by Web-results only." tags={["Chrome", "JSON"]} />
-        <Card repoName="dev-portfolio" description="The Remix project for this very page!" tags={["React", "Remix", "TypeScript"]} />
+        <div className="flex flex-wrap gap-x-4">
+          <Card repoName="classic-search" description="Chrome extension that filters Google search queries by Web-results only." tags={["Chrome", "JSON"]} />
+          <Card repoName="dev-portfolio" description="The Remix project for this very page!" tags={["React", "Remix", "TypeScript"]} />
+        </div>
       </section>
 
       <section style={{ marginBottom: "40px" }}>
