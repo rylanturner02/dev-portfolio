@@ -61,11 +61,6 @@ export default function Index() {
       </section>
 
       <section style={{ marginBottom: "40px" }}>
-        <h2 className="text-2xl font-bold italic">Skills</h2>
-        <p>...</p>
-      </section>
-
-      <section style={{ marginBottom: "40px" }}>
         <h2 className="text-2xl font-bold italic">Contact</h2>
         <p>If you&apos;d like to get in touch, feel free to reach out via email at <a href="mailto:rylanturner02@gmail.com">rylanturner02@gmail.com</a>.</p>
       </section>
