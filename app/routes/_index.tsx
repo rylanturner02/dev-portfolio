@@ -16,7 +16,7 @@ function Card({ repoName, description, tags } : CardProps) {
   const repoLink = `https://www.github.com/rylanturner02/${repoName}`;
 
   return (
-    <div className="card bg-base-300 w-80 shadow-xl mb-5">
+    <div className="card bg-base-200 w-80 shadow-xl mb-5">
       <div className="card-body">
         <h2 className="card-title"><a href={repoLink} target="_blank" rel="noopener noreferrer" className="underline">{repoName}</a></h2>
         <p>{description}</p>
@@ -67,7 +67,7 @@ export default function Index() {
         <p>If you&apos;d like to get in touch, feel free to reach out via email at <a href="mailto:rylanturner02@gmail.com" className="underline">rylanturner02@gmail.com</a>.</p>
       </section>
 
-      <footer style={{ borderTop: "1px solid #ccc", paddingTop: "20px" }}>
+      <footer style={{ borderTop: "1px solid #ccc", paddingTop: "20px", marginTop: "11rem" }}>
         <p>&copy; 2024 Rylan Turner. All rights reserved.</p>
       </footer>
     </div>
