@@ -33,7 +33,7 @@ export default function Index() {
     <div style={{ fontFamily: "Zilla Slab, serif", lineHeight: "1.8", padding: "20px" }}>
       <header className="fixed bg-base-100 top-0 left-0 right-0 z-50">
         <div className="navbar">
-          <div style={{fontFamily: "Caprasimo, serif"}} className="flex-1 ml-3 sm:text-xl md:text-3xl">Rylan Turner&apos;s Portfolio</div>
+          <div className="font-caprasimo flex-1 ml-3 sm:textxl md:text-3xl">Rylan Turner&apos;s Portfolio</div>
           <div className="flex-none">
             <a href="https://www.github.com/rylanturner02" target="_blank" rel="noopener noreferrer" className="btn btn-circle btn-ghost">
             <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" className="octicon octicon-mark-github v-align-middle">
@@ -49,12 +49,12 @@ export default function Index() {
         <p><i>This website is currently under development, so feel free to track changes on my GitHub repo, listed below.</i></p>
       </div>
       
-      <section style={{ marginBottom: "40px" }}>
+      <section className="mb-10">
         <h2 className="text-2xl font-bold italic">About Me</h2>
         <p>{"I'm a new graduate of the University of Illinois, and I specialize in software engineering and distributed systems."}</p>
       </section>
 
-      <section style={{ marginBottom: "40px" }}>
+      <section className="mb-10">
         <h2 className="text-2xl font-bold italic mb-5">Projects</h2>
         <div className="flex flex-wrap gap-x-4">
           <Card repoName="classic-search" description="Chrome extension that filters Google search queries by Web-results only." tags={["Chrome", "JSON"]} />
@@ -62,12 +62,12 @@ export default function Index() {
         </div>
       </section>
 
-      <section style={{ marginBottom: "40px" }}>
+      <section className="mb-10">
         <h2 className="text-2xl font-bold italic">Contact</h2>
         <p>If you&apos;d like to get in touch, feel free to reach out via email at <a href="mailto:rylanturner02@gmail.com" className="underline">rylanturner02@gmail.com</a>.</p>
       </section>
 
-      <footer style={{ borderTop: "1px solid #ccc", paddingTop: "20px", marginTop: "11rem" }}>
+      <footer className="border-solid border-t-2 border-neutral-300 pt-5 mt-44">
         <p>&copy; 2024 Rylan Turner. All rights reserved.</p>
       </footer>
     </div>
