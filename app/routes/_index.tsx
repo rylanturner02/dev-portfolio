@@ -30,10 +30,10 @@ function Card({ repoName, description, tags } : CardProps) {
 
 export default function Index() {
   return (
-    <div style={{ fontFamily: "Zilla Slab, serif", lineHeight: "1.8", padding: "20px" }}>
+    <div className="font-zilla-slab leading-7 p-5">
       <header className="fixed bg-base-100 top-0 left-0 right-0 z-50">
         <div className="navbar">
-          <div className="font-caprasimo flex-1 ml-3 sm:textxl md:text-3xl">Rylan Turner&apos;s Portfolio</div>
+          <div className="font-caprasimo flex-1 ml-3 sm:text-2xl md:text-3xl">Rylan Turner&apos;s Portfolio</div>
           <div className="flex-none">
             <a href="https://www.github.com/rylanturner02" target="_blank" rel="noopener noreferrer" className="btn btn-circle btn-ghost">
             <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" className="octicon octicon-mark-github v-align-middle">

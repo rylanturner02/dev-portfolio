@@ -5,6 +5,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        'zilla-slab': ['Zilla Slab', 'serif'],
         'caprasimo': ['Caprasimo', 'serif'],
       },
     },
