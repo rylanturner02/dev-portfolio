@@ -30,8 +30,8 @@ function Card({ repoName, description, tags } : CardProps) {
 
 export default function Index() {
   return (
-    <div className="font-zilla-slab leading-7 p-5">
-      <header className="fixed bg-base-100 top-0 left-0 right-0 z-50">
+    <div className="font-zilla-slab leading-7 p-5 md:px-16 lg:px-16">
+      <header className="fixed md:px-10 lg:px-10 pt-2 bg-base-100 top-0 left-0 right-0 z-50">
         <div className="navbar">
           <div className="font-caprasimo flex-1 ml-3 sm:text-2xl md:text-3xl">Rylan Turner&apos;s Portfolio</div>
           <div className="flex-none">
