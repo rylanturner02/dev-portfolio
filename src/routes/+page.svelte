@@ -22,7 +22,7 @@
     },
     {
       name: "Email",
-      url: "#",
+      url: "mailto:rylanturner02+dev@gmail.com",
       classes: "fa-solid fa-envelope",
     },
   ];
@@ -153,7 +153,7 @@
     background: linear-gradient(
       135deg,
       rgba(0, 0, 0, 0.5) 0%,
-      rgba(0, 0, 0, 0.7) 100%
+      rgba(0, 0, 0, 0.7) 150%
     );
     height: 100%;
     left: 0;
