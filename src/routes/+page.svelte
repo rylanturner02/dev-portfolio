@@ -1,6 +1,9 @@
 <script lang="ts">
   import { onMount, onDestroy } from "svelte";
   import { browser } from "$app/environment";
+  import { injectAnalytics } from "@vercel/analytics/sveltekit";
+
+  injectAnalytics({ mode: browser ? "development" : "production" });
 
   const name = "Rylan Turner";
   const tagline = "Software Engineer • Illinois Football Enjoyer";
