@@ -34,11 +34,18 @@
   let isAnimationPaused = $state(false);
   let fontsLoaded = $state(false);
 
+  /**
+   * Handles visibility change events to pause background animation when tab is not visible
+   * @returns {void}
+   */
   function handleVisibilityChange() {
     if (!browser) return;
     isAnimationPaused = document.hidden;
   }
 
+  /**
+   * Initializes the page by loading required fonts and setting up event listeners
+   */
   onMount(() => {
     if (!browser) return;
 
