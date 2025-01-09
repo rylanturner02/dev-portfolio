@@ -138,7 +138,8 @@
     opacity: 1;
     position: fixed;
     top: 0;
-    width: 300%;
+    width: 400%;
+    will-change: transform;
   }
 
   .fonts-loaded #bg {
@@ -303,7 +304,7 @@
       transform: translate3d(0, 0, 0);
     }
     to {
-      transform: translate3d(-75%, 0, 0);
+      transform: translate3d(-50%, 0, 0);
     }
   }
 
