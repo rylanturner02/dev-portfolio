@@ -19,7 +19,7 @@
       classes: "fa-brands fa-linkedin-in",
     },
     {
-      name: "Projects",
+      name: "Instagram",
       url: "https://instagram.com/rylanturner02/",
       classes: "fa-brands fa-instagram",
     },
