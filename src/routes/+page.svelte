@@ -16,7 +16,7 @@
     {
       name: "LinkedIn",
       url: "https://linkedin.com/in/rylanturner02/",
-      classes: "fa-brands fa-linkedin",
+      classes: "fa-brands fa-linkedin-in",
     },
     {
       name: "Projects",
@@ -24,9 +24,9 @@
       classes: "fa-brands fa-instagram",
     },
     {
-      name: "Email",
-      url: "mailto:rylanturner02+dev@gmail.com",
-      classes: "fa-solid fa-envelope",
+      name: "Resume",
+      url: "/resume.pdf",
+      classes: "fa-regular fa-file",
     },
   ];
 
