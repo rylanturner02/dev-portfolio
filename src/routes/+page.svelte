@@ -10,7 +10,7 @@
   const socialLinks = [
     {
       name: "GitHub",
-      url: "https://www.github.com/rylanturner02/",
+      url: "https://github.com/rylanturner02/",
       classes: "fa-brands fa-github",
     },
     {
@@ -20,8 +20,8 @@
     },
     {
       name: "Projects",
-      url: "#",
-      classes: "fa-solid fa-code",
+      url: "https://instagram.com/rylanturner02/",
+      classes: "fa-brands fa-instagram",
     },
     {
       name: "Email",
