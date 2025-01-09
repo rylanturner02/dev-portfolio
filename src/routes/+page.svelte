@@ -72,7 +72,7 @@
           <ul>
             {#each socialLinks as link}
               <li>
-                <a href={link.url}>
+                <a href={link.url} target="_blank">
                   <i class={link.classes}></i>
                   <span class="label">{link.name}</span>
                 </a>
