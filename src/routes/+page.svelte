@@ -102,7 +102,7 @@
 </div>
 
 <style>
-  @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
   @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
 
   :global(*),
@@ -117,7 +117,7 @@
     min-width: 320px;
     background: #fff;
     color: #fff;
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: "Jost", sans-serif;
     font-size: 15pt;
     font-weight: 300;
     line-height: 1.75em;
@@ -207,8 +207,8 @@
 
   h1 {
     font-size: 4.35em;
-    font-weight: 900;
-    letter-spacing: -0.035em;
+    font-weight: 780;
+    letter-spacing: -0.03em;
     line-height: 1em;
     margin-bottom: 0.5em;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
