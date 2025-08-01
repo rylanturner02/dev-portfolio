@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>8-01-2025</title>
+        <style>
+            body {
+                text-align: center;
+            }
+            ul {
+                max-width: 60%;
+                display: table;
+                margin: 0 auto;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Monet GAN Model - <i>Personal Project</i></h1>
+        <h2><a href="https://github.com/rylanturner02/monet-gan-model">Check out the GitHub repo!</a></h2>
+        <p>I recently finished a Monet-style CycleGAN (Cycle Generative Adversarial Network) 
+            model inspired by the "GAN Getting Started" Kaggle competition. The model trained 
+            from hundreds of Monet paintings and thousands of real photographs. The goal of 
+            this project was to develop a model using CycleGAN architecture to learn the mapping 
+            between photo and Monet painting domains without requiring paired training data.
+        </p>
+        <p>This project started out as a Kaggle submission for my Reinforcement Learning graduate 
+            course, but with too large of a Jupyter notebook and <i>way</i> too long of a runtime 
+            (~7 hours past the 5 hour max) this quickly turned into a larger effort 
+            to train a model to transfer photos to actually resemble Monet's art style.
+        </p>
+        <p>This project used the TensorFlow library for my implementation of the CycleGAN architecture, 
+            as well as loss functions and optimizers to help train the model. Each of the 50 epochs took 
+            about 15-25 minutes as the notebook ran overnight. The first 10 epochs of training revealed 
+            clear progress with a lot of work to go, as seen in the blurry images with dark artifacts 
+            splotched around the edges:
+        </p>
+        <img href="../../content/blog/8-01-2025/output_56_1.png">
+        <p>By epoch 30, we can observe outputs that exhibit a canvas-style look with more uniform colors 
+            that certainly look more like a painting, but many photographs were still seeing large artifacts 
+            after transfer:
+        </p>
+        <img href="../../content/blog/8-01-2025/output_56_5.png">
+        <p>Fortunately, the training corrected itself by epoch 50, where we see the vast majority of output 
+            images are consistently more Monet-style with no artifacting:
+        </p>
+        <img href="../../content/blog/8-01-2025/output_64_1.png">
+        <p>This is a work in progress, as one of many changes I'd like to make include developing a user 
+            interface to actually interact with this model by uploading photographs to be transferred.
+        </p>
+    </body>
+</html>
